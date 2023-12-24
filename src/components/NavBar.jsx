@@ -6,7 +6,7 @@ const NavBar = () => {
   const { cartTotalQuantity } = useSelector((state) => state.cart);
   return (
     <nav className="nav-bar">
-      <Link to="/">
+      <Link to="/Space-Whiz_E-Commerce-Website">
         <h2>OnlineShop</h2>
       </Link>
       <Link to="/cart">

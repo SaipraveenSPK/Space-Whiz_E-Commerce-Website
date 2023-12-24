@@ -11,7 +11,7 @@ export const productsFetch = createAsyncThunk(
   async () => {
     try {
       const response = await axios.get(
-        "https://ecomm-4knx.onrender.com/products"
+        "https://ecomm-4knx.onrender.com/products"                     
       );
       return response.data;
     } catch (error) {

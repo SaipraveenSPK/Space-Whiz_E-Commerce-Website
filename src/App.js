@@ -20,7 +20,7 @@ function App() {
           <Switch>
             <Route path="/cart" component={Cart} />
             <Route path="/not-found" component={NotFound} />
-            <Route path="/" exact component={Home} />
+            <Route path="/Space-Whiz_E-Commerce-Website" exact component={Home} />
             <Redirect to="/not-found" />
           </Switch>
         </div>
