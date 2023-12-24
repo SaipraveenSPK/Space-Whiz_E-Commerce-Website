@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Space-Whiz_E-Commerce-Website/precache-manifest.365a4f7dbcd842b35ea92099ca075b51.js"
+  "/Space-Whiz_E-Commerce-Website/precache-manifest.338551ce68ead6e0c5898ca2239bc3a6.js"
 );
 
 self.addEventListener('message', (event) => {
