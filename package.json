@@ -1,5 +1,5 @@
 {
-  "homepage":"https://SaipraveenSPK.github.io/Space-Whiz_E-Commerce-Website",
+  "homepage": "https://SaipraveenSPK.github.io/Space-Whiz_E-Commerce-Website",
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
@@ -9,6 +9,7 @@
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
     "axios": "^0.21.1",
+    "gh-pages": "^6.1.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-redux": "^7.2.4",
@@ -19,8 +20,8 @@
   },
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
